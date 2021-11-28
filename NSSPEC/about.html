@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NSS PEC Chandigarh</title>
+    <link rel="shortcut icon" type="image/jpg" href="nss_logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <section class = "sub-header">
+      <nav>
+        <a href="index.html"><img src ="nss_logo.jpg"></a>
+        <div class ="nav_links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="events.html">REGULAR EVENTS</a></li>
+            <li><a href="new_ideas.html">NEW IDEAS</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About NSS PEC</h1>
+    </section>
+<!--About---->
+<section class="about-nss">
+  <div class="row">
+    <div class="about-col">
+      <p>
+        The NSS unit of Punjab Engineering College (Deemed to be University) has been functioning since its incorporation in 1966. To strengthen the idea of Youth development, the institute has offered NSS as a credited course with credit at the end of 2nd year and as a proficiency course with credit at the end of final year. Students have a choice to opt for NSS as a credited course among NCC, NSS and Sports in their first year. For the duration up till the final year, the students have a choice to opt for NSS as their proficiency course among various clubs, technical societies, NCC, NSS and Sports. The Institute strongly supports all the activities of NSS being held in the Institute.
+        </p>
+      </div>
+      <div class="about-col">
+        <img src="nss.jpg" />
+        </div>
+    </div>
+    <div class="obj">
+      <h2>Objectives</h2>
+      <ul>
+        <li>Understand the community in which they work.</li>
+        <li>Understand themselves in relation to their community.</li>
+        <li>Identify the needs and problems of the community and involve them in problem solving process.</li>
+        <li>Develop among themselves a sense of social and civic responsibility.</li>
+        <li>Utilize their knowledge in finding practical solution to individual and community problems.</li>
+        <li>Develop competence required for group living and sharing of responsibilities.</li>
+        <li>Gain skills in mobilizing community participation.</li>
+        <li>Acquire leadership qualities and democratic attitude.</li>
+        <li>Develop capacity to meet emergencies and natural disasters.</li>
+        <li>Practice national integration and social harmony.</li>
+        </ul>
+      </div>
+  </section>
+
+    <!--Footer---->
+    <section class="footer">
+      <h2>WE ARE SOCIAL ;)</h2>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+      </div>
+      <p>
+        Made with <i class="fa fa-heart-o"></i> by Chirag & Ujjwal</p>
+      </p>
+    </section>
+
+    <!--Javascript for toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0";
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px";
+      }
+    </script>
+
+  </body>
+</html>
